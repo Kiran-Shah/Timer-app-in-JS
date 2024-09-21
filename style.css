@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open sans";
+}
+
+.mainWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(45, 241, 255, 0.61);
+}
+
+.innerWrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.innerWrapper h1 {
+    font-size: 4rem;
+    font-weight:600;
+    margin-bottom: 1rem;
+}
+
+.timer-wrapper {
+    display: flex;
+    align-items: end;
+    /* gap: 2rem; */
+}
+
+.timers {
+    font-size: 2rem;
+}
+
+.timers input {
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 1.6rem;
+    background: none;
+    padding: 1rem 0;
+    color: black;
+    font-weight: 600;
+}
+
+.seperator {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.timer-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.timer-buttons button {
+    padding: .6rem 4rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+#startPauseBtn {
+    background-color: green;
+    color: white;
+}
+
+#resetBtn {
+    background-color: orangered;
+    color: white;
+}
